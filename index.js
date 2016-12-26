@@ -9,7 +9,7 @@ const YELLOW = '#f0c981';
 const BLUE = '#81629e';
 const MAGENTA = '#dbbfe3';
 const LIGHT_GRAY = '#f2f2f2';
-const DARK_GRAY = '#596a86'
+const DARK_GRAY = '#596a86';
 
 // Mapped Colors
 const colors = {
@@ -33,7 +33,7 @@ const colors = {
 };
 
 // Additional Constants
-const cursorColor = YELLOW;
+const cursorColor = colors.yellow;
 const borderColor = backgroundColor;
 
 exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
@@ -47,8 +47,8 @@ exports.decorateConfig = (config) => {
     css: `
       ${config.css || ''}
       .cursor-node {
-        background-color: ${MAGENTA} !important;
-        border-color: ${MAGENTA} !important;
+        background-color: ${colors.magenta} !important;
+        border-color: ${colors.magenta} !important;
       }
       .hyper_main {
         border: none !important;
@@ -63,7 +63,7 @@ exports.decorateConfig = (config) => {
         border: 0;
       }
       .tab_textActive {
-        border-bottom: 2px solid ${BLUE};
+        border-bottom: 2px solid ${colors.blue};
       }
     `
   })
