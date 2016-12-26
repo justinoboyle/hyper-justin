@@ -1,9 +1,9 @@
 {
-  "name": "hyper-sierra-vibrancy",
+  "name": "hyper-justin",
   "version": "0.1.1",
-  "description": "Hyper theme with vibrancy inspired by Hyper Sierra",
+  "description": "Justin's Hyper Terminal",
   "main": "index.js",
-  "repository": "https://github.com/licatajustin/hyper-sierra-vibrancy.git",
+  "repository": "https://github.com/justinoboyle/hyper-justin.git",
   "keywords": [
     "hyper",
     "hyper-theme",
@@ -11,7 +11,7 @@
     "vibrancy",
     "sierra"
   ],
-  "author": "Justin Licata",
+  "author": "Justin O'Boyle & Justin Licata (for original- before fork) ",
   "license": "MIT",
   "dependencies": {}
 }
