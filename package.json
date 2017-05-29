@@ -1,6 +1,6 @@
 {
   "name": "hyper-justin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Justin's Hyper Terminal",
   "main": "index.js",
   "repository": "https://github.com/justinoboyle/hyper-justin.git",

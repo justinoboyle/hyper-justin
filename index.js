@@ -1,15 +1,15 @@
 // Constants
 const backgroundColor = 'rgba(4, 9, 15, 0.75)';
-const foregroundColor = '#cbcfd4';
+const foregroundColor = '#ffffff';
 
 // Colors
-const RED = '#de4f55';
-const GREEN = '#38dec9';
-const YELLOW = '#f0c981';
-const BLUE = '#81629e';
-const MAGENTA = '#dbbfe3';
-const LIGHT_GRAY = '#f2f2f2';
-const DARK_GRAY = '#596a86';
+const RED = '#6673bf';
+const GREEN = '#3ea290';
+const YELLOW = '#b0ead9';
+const BLUE = '#31658c';
+const MAGENTA = '#596196';
+const LIGHT_GRAY = '#ffffff';
+const DARK_GRAY = '#1b1b1b';
 
 // Mapped Colors
 const colors = {
@@ -42,6 +42,7 @@ exports.decorateConfig = (config) => {
     foregroundColor,
     backgroundColor,
     borderColor,
+    cursorShape: "UNDERLINE",
     cursorColor,
     colors,
     css: `
